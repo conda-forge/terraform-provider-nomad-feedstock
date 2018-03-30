@@ -1,12 +1,12 @@
 {% set provider= "Nomad" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "aeed349d65f982c92b54dbc1e3a7aa6aa0f6bec7232c8ae487d3984e1196eb0a" %}
-{% set sha256_win32 = "02faf9fd3e0e017eb6419fd3369e7ec4d7ab975584c604250d1854dd6566d1e3" %}
-{% set sha256_win64 = "94132f18f26b7aa10da209384a1f8dcd3c801e53e8a94ae44dcb11a7c8909286" %}
+{% set sha256 = "d59a2ebbb84834594cb64df2bbb1936ab2457fab57fbad0d469730870ad2253a" %}
+{% set sha256_win32 = "37e0c17f4536179aeda07a5623fb7c0599b3d5cd09a1e54efc322cc79e6637b9" %}
+{% set sha256_win64 = "36a70bf4356d188ef686008b1db8834fcf81a024bfc5c57087013a9bbfe69aa1" %}
 
 package:
   name: {{ name|lower }}
