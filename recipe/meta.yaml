@@ -7,7 +7,6 @@
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
 {% set sha256 = "5c2d2b6fa6bf64bf41e3fd4616047699f817cc84e59c975e2efe415d752ace5b" %}
-{% set sha256_win64 = "36a70bf4356d188ef686008b1db8834fcf81a024bfc5c57087013a9bbfe69aa1" %}
 
 package:
   name: {{ name|lower }}
