@@ -1,12 +1,12 @@
 {% set provider = "Nomad" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "1.4.10" %}
+{% set version = "1.4.11" %}
 
 {% set name = goname.split('/')[-1] %}
 
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "8fa2386649465bbb57e836bd6e2a2728f4e780399027b32e83453181ddc38d21" %}
+{% set sha256 = "9af9b5ca70fe6960da57084135250820f9f8cdc90d2ddcd3aa7e0448fabdb910" %}
 
 package:
   name: {{ name|lower }}
