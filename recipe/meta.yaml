@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-  sha256: "9af9b5ca70fe6960da57084135250820f9f8cdc90d2ddcd3aa7e0448fabdb910
+  sha256: 9af9b5ca70fe6960da57084135250820f9f8cdc90d2ddcd3aa7e0448fabdb910
 
 build:
   number: 1
